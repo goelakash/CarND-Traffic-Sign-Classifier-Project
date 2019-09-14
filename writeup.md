@@ -155,7 +155,7 @@ Here are the results of the prediction:
 | Turn right ahead | Turn right ahead                |
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 93.5%
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 93.5%
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -169,5 +169,4 @@ The model probababilities for each of the image outputs are as shown.
 | Wild animals crossing | ![alt text][p4] |
 | Turn right ahead | ![alt text][p5] |
 
-This is surprsing to me as the turn right ahead sign seemed pretty clear. On the other hand, the image for wild-animals crossing was less clear as it was slightly tilted and had other kinds of noise.
-
+I was not expecting the model to perform this well on these images, especially the one with Wild Animals Crossing sign.
